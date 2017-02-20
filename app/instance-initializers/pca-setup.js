@@ -17,7 +17,7 @@ export function initialize(appInstance) {
   Object.keys(emberPcaConfig).forEach((key) => {
     set(emberPcaService, key, emberPcaConfig[key]);
   });
-  if (!process.env.EMBER_CLI_FASTBOOT) {
+  if (window && document) {
     (function(n, t, i, r) {
         var u, f;
         n[i] = n[i] || {}, n[i].initial = {
