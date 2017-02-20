@@ -1,11 +1,10 @@
 import Ember from 'ember';
-import config from '../config/environment';
+import config from '../../config/environment';
 
 const {
   merge,
   set
 } = Ember;
-
 
 export function initialize(appInstance) {
   if (!config['ember-pca-predict'].disabled) {
@@ -15,6 +14,7 @@ export function initialize(appInstance) {
     Object.keys(emberPcaConfig).forEach((key) => {
       set(emberPcaService, key, emberPcaConfig[key]);
     });
+
     (function(n, t, i, r) {
         var u, f;
         n[i] = n[i] || {}, n[i].initial = {
