@@ -8,7 +8,7 @@ const {
 
 
 export function initialize(appInstance) {
-  if (config['ember-pca-predict'].disabled) {
+  if (!config['ember-pca-predict'].disabled) {
     let emberPcaConfig = config['ember-pca-predict'];
     let emberPcaService = appInstance.lookup('service:ember-pca');
 
