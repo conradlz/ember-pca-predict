@@ -6,18 +6,15 @@ const {
   set
 } = Ember;
 
-const DEFAULT_CONFIG = {
-  enabled: true
-};
 
 export function initialize(appInstance) {
-  let emberPcaConfig = merge(DEFAULT_CONFIG, config['ember-pca-predict']);
-  let emberPcaService = appInstance.lookup('service:ember-pca');
+  if (config['ember-pca-predict'].disabled) {
+    let emberPcaConfig = config['ember-pca-predict'];
+    let emberPcaService = appInstance.lookup('service:ember-pca');
 
-  Object.keys(emberPcaConfig).forEach((key) => {
-    set(emberPcaService, key, emberPcaConfig[key]);
-  });
-  if (window && document) {
+    Object.keys(emberPcaConfig).forEach((key) => {
+      set(emberPcaService, key, emberPcaConfig[key]);
+    });
     (function(n, t, i, r) {
         var u, f;
         n[i] = n[i] || {}, n[i].initial = {
