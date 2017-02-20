@@ -11,7 +11,8 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/PrinceCornNM/ember-pca-predict",
+  "homepage": "https://github.com/PrinceCornNM/ember-pca-predict",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
