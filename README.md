@@ -1,6 +1,6 @@
 # ember-pca-predict
 
-This README outlines the details of collaborating on this Ember addon.
+This addon is made to work with [pca-predict](http://www.pcapredict.com/en-us/index/) which is a service that provides useful things like address, email, and password verification as well as other data services.
 
 ## Installation
 
