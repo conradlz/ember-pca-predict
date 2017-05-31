@@ -6,7 +6,7 @@ This addon is made to work with [pca-predict](http://www.pcapredict.com/en-us/in
 This addon provides a way to initialize the pca predict global in a way that is easy and fastboot compatible.
 
 ## Configuring
-In the parent application's `config/enviroment.js` you can specify:
+In the parent application's `config/environment.js` you can specify:
 
 ```
 'ember-pca-predict': {
