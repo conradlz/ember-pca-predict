@@ -2,10 +2,10 @@
 
 This addon is made to work with [pca-predict](http://www.pcapredict.com/en-us/index/) which is a service that provides useful things like address, email, and password verification as well as other data services.
 
-##Features
+## Features
 This addon provides a way to initialize the pca predict global in a way that is easy and fastboot compatible.
 
-##Configuring
+## Configuring
 In the parent application's `config/enviroment.js` you can specify:
 
 ```
