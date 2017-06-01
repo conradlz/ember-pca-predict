@@ -39,7 +39,6 @@
     "ember-load-initializers": "^0.6.0",
     "ember-resolver": "^2.0.3",
     "ember-source": "^2.12.0-beta.1",
-    "fastboot-filter-initializers": "0.0.2",
     "loader.js": "^4.1.0"
   },
   "engines": {
