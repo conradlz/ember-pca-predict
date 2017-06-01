@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-pca-predict',
+  name: 'ember-pca-predict'
 };
