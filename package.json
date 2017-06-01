@@ -1,6 +1,6 @@
 {
   "name": "ember-pca-predict",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ember addon meant to help with using PCA Predict on ember-cli.",
   "keywords": [
     "ember-addon"
