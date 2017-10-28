@@ -1,10 +1,6 @@
-import Ember from 'ember';
+import { merge } from '@ember/polyfills';
+import { set } from '@ember/object';
 import config from '../config/environment';
-
-const {
-  merge,
-  set
-} = Ember;
 
 export function initialize(appInstance) {
   if (!config['ember-pca-predict'].disabled && typeof FastBoot === 'undefined') {
