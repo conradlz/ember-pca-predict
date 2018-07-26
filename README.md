@@ -8,7 +8,7 @@ This addon provides a way to initialize the pca predict global in a way that is 
 ## Configuring
 In the parent application's `config/environment.js` you can specify:
 
-<<<<<<< HEAD
+
 ```
 'ember-pca-predict': {
   enabled: true, //this is true by default false prevents the initialization of the pca global
@@ -16,11 +16,6 @@ In the parent application's `config/environment.js` you can specify:
   host: '<host>' // pca predict url for host
 },
 ```
-=======
-* `git clone <repository-url>` this repository
-* `cd my-addon`
-* `npm install`
->>>>>>> 62d0c34... diff
 
 ## Installation
 
